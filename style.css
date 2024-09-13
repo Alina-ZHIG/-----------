@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffe6f2; /* Светло-розовый фон */
+}
+
+.calculator {
+    background-color: #ffccdd; /* Розовый фон для калькулятора */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#display {
+    width: 100%;
+    font-size: 2rem;
+    margin-bottom: 10px;
+    text-align: right;
+    padding: 10px;
+    background-color: #fff0f5; /* Светлый розовый для поля ввода */
+    border: none;
+    border-radius: 5px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+
+button {
+    padding: 20px;
+    font-size: 1.5rem;
+    background-color: #ff99bb; /* Розовые кнопки */
+    color: white; /* Белый цвет текста */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+button:hover {
+    background-color: #ff6699; /* Темнее розовый при наведении */
+}
